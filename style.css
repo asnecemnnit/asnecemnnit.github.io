@@ -52,7 +52,7 @@ main {
 
 section {
   margin-bottom: 40px;
-  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color for sections */
+  background-color: transparent; /* Set background color to transparent */
   padding: 20px; /* Add some padding for readability */
 }
 
