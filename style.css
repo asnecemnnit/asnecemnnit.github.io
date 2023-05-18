@@ -52,22 +52,25 @@ main {
 
 section {
   margin-bottom: 40px;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color for sections */
+  padding: 20px; /* Add some padding for readability */
 }
 
 h2 {
   font-size: 32px;
+  color: #fff; /* Set heading color to white */
   margin-bottom: 20px;
 }
 
 p {
-  color: #555;
+  color: #fff; /* Set paragraph text color to white */
   line-height: 1.5;
 }
 
 ul {
   list-style-type: disc;
   margin-left: 30px;
-  color: #555;
+  color: #fff; /* Set list item text color to white */
 }
 
 /* Apply styles to footer */
@@ -80,23 +83,4 @@ footer {
 footer p {
   color: #fff;
   font-size: 14px;
-}
-
-/* Add background image */
-body {
-  background-image: url('background-image.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative; /* Required for overlay */
-}
-
-body::after {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent overlay color */
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
 }
