@@ -104,3 +104,9 @@ body::after {
   left: 0;
   z-index: -1;
 }
+
+.project {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
