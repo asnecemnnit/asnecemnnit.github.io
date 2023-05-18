@@ -81,3 +81,10 @@ footer p {
   color: #fff;
   font-size: 14px;
 }
+
+/* Add background image */
+body {
+  background-image: url('background-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
