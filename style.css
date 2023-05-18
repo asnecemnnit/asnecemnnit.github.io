@@ -36,7 +36,7 @@ nav ul li {
 nav ul li a {
   color: transparent; /* Set navigation link color to transparent */
   text-decoration: none;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
   transition: color 0.3s ease;
 }
