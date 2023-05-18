@@ -19,7 +19,7 @@ h1 {
 
 /* Apply styles to navigation menu */
 nav {
-  background-color: transparent;
+  background-color: #ffffff; /* Set navigation link color to white */
   padding: 10px;
 }
 
