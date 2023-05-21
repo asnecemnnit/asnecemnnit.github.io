@@ -149,6 +149,8 @@ body::after {
 }
 
 .animated-image {
+  width: 200px;
+  height: 200px;
   animation: spin 2s infinite linear;
 }
 
