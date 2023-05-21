@@ -174,10 +174,28 @@ body::after {
   }
 }
 
+.fade-in-out {
+  animation: fade 2s infinite;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
 .animated-image {
   width: 600px;
   height: 300px;
-  animation: rotateHorizontal 5s infinite linear;
+  animation: fade 5s infinite;
 }
 
 @keyframes rotateHorizontal {
