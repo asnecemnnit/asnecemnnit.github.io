@@ -177,7 +177,7 @@ body::after {
 .animated-image {
   width: 600px;
   height: 300px;
-  animation: rotateHorizontal 2s infinite linear;
+  animation: rotateHorizontal 5s infinite linear;
 }
 
 @keyframes rotateHorizontal {
