@@ -125,6 +125,32 @@ body::after {
   z-index: -1;
 }
 
+.project-details {
+  display: none;
+}
+
+.project .toggle-btn {
+  cursor: pointer;
+  color: blue;
+}
+
+.project .toggle-btn:hover {
+  text-decoration: underline;
+}
+
+.project .toggle-btn::after {
+  content: "+";
+  margin-left: 5px;
+}
+
+.project .active .toggle-btn::after {
+  content: "-";
+}
+
+.project .active .project-details {
+  display: block;
+}
+
 .project {
   margin-bottom: 20px;
   padding: 10px;
