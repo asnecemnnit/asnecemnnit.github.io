@@ -104,7 +104,7 @@ footer p {
 
 /* Add background image */
 body {
-  background-image: url('background-image.jpg');
+  background-image: url('images/background-image.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -145,5 +145,19 @@ body::after {
 
   to {
     opacity: 1;
+  }
+}
+
+.animated-image {
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
   }
 }
