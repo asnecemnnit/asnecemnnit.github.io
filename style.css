@@ -90,6 +90,11 @@ ul {
   /* Set list item text color to white */
 }
 
+.project-link {
+  color: #ff6600;
+  /* Replace with your desired color */
+}
+
 /* Apply styles to footer */
 footer {
   background-color: #333;
