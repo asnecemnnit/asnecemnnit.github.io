@@ -149,8 +149,8 @@ body::after {
 }
 
 .animated-image {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 600px;
   animation: rotateHorizontal 2s infinite linear;
 }
 
