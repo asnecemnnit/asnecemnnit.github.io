@@ -116,7 +116,13 @@
 
   <script>
     function toggleDetails(element) {
-      element.parentNode.nextElementSibling.classList.toggle("active");
-      element.classList.toggle("active");
+      var projectDetails = element.parentNode.nextElementSibling;
+      if (projectDetails.style.display === "none") {
+        projectDetails.style.display = "block";
+        element.textContent = "-";
+      } else {
+        projectDetails.style.display = "none";
+        element.textContent = "+";
+      }
     }
   </script>
