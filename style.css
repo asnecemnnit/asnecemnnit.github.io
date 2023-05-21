@@ -1,5 +1,14 @@
 /* Reset default margin and padding */
-body, h1, h2, h3, h4, h5, h6, p, ul, li {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
   margin: 0;
   padding: 0;
 }
@@ -19,7 +28,8 @@ h1 {
 
 /* Apply styles to navigation menu */
 nav {
-  background-color: transparent; /* Set navigation link color to white */
+  background-color: transparent;
+  /* Set navigation link color to white */
   padding: 10px;
 }
 
@@ -34,7 +44,8 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #ffffff; /* Set navigation link color to white */
+  color: #ffffff;
+  /* Set navigation link color to white */
   text-decoration: none;
   font-size: 24px;
   font-weight: bold;
@@ -52,25 +63,30 @@ main {
 
 section {
   margin-bottom: 40px;
-  background-color: transparent; /* Set background color to transparent */
-  padding: 20px; /* Add some padding for readability */
+  background-color: transparent;
+  /* Set background color to transparent */
+  padding: 20px;
+  /* Add some padding for readability */
 }
 
 h2 {
   font-size: 32px;
-  color: #fff; /* Set heading color to white */
+  color: #fff;
+  /* Set heading color to white */
   margin-bottom: 20px;
 }
 
 p {
-  color: #fff; /* Set paragraph text color to white */
+  color: #fff;
+  /* Set paragraph text color to white */
   line-height: 1.5;
 }
 
 ul {
   list-style-type: disc;
   margin-left: 30px;
-  color: #fff; /* Set list item text color to white */
+  color: #fff;
+  /* Set list item text color to white */
 }
 
 /* Apply styles to footer */
@@ -90,13 +106,16 @@ body {
   background-image: url('background-image.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative; /* Required for overlay */
-  color: #fff; /* Set default text color to white */
+  position: relative;
+  /* Required for overlay */
+  color: #fff;
+  /* Set default text color to white */
 }
 
 body::after {
   content: "";
-  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent overlay color */
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Semi-transparent overlay color */
   position: absolute;
   top: 0;
   right: 0;
@@ -116,4 +135,18 @@ body::after {
   padding: 10px;
   background-color: transparent;
   font-size: 20px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.my-element {
+  animation: fadeIn 1s ease-in-out;
 }
